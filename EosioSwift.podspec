@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
 	  'ENABLE_BITCODE' => 'YES' 
 	}
 
-    ss.ios.dependency 'BigInt', '~> 5.0'
+    ss.ios.dependency 'BigInt', '~> 3.0.1'
     ss.ios.dependency 'PromiseKit', '~> 6.4.1'
   end
   

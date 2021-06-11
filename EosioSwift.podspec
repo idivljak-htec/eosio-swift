@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
 	}
 
     ss.ios.dependency 'BigInt', '~> 5.0'
-    ss.ios.dependency 'PromiseKit', '~> 6.8'
+    ss.ios.dependency 'PromiseKit', '~> 6.4.1'
   end
   
   s.subspec 'AbieosSerializationProvider' do |ss|
